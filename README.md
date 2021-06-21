@@ -16,8 +16,8 @@ The table lists known hardware cryptographic devices and their support, or non-s
 
 | Vendor                  | Capability | Format | Documentation                                                                                       | Notes |
 | ----------------------- |:-----------|:-------|:----------------------------------------------------------------------------------------------------|:------|
-| Google CloudHSM         | ✔️        | JSON   |https://cloud.google.com/kms/docs/attest-key                                                         |       |
-| AWS CloudHSM            | ❌         |        |                                                                                                     |       |
+| Google CloudHSM         | :heavy_check_mark:        | JSON   |https://cloud.google.com/kms/docs/attest-key                                                         |       |
+| AWS CloudHSM            | :x:         |        |                                                                                                     |       |
 | AWS KMS                 | ❌         |        |                                                                                                     |       |
 | Azure Key Vault         | ❌         |        |                                                                                                     |       |
 | Azure Managed HSM       | ❌         |        |                                                                                                     |Said by MS to be on the roadmap|
