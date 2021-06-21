@@ -24,7 +24,7 @@ The table lists known hardware cryptographic devices and their support, or non-s
 | Azure Managed HSM       |:x:         |        |                                                                                                     |Said by MS to be on the roadmap|
 |**HSMs**|
 | Utimaco CryptoServer    |:x:         |        |                                                                                                     |       |
-| Thales Luna             |:heavy_check_mark:| ?      |https://thalesdocs.com/gphsm/luna/7/docs/network/Content/admin_partition/confirm/confirm_hsm.htm<br>https://thalesdocs.com/gphsm/luna/7/docs/network/Content/Utilities/cmu/cmu_getpkc.htm|    |
+| Thales Luna             |:heavy_check_mark:|CMS/PKCS#7 |https://thalesdocs.com/gphsm/luna/7/docs/network/Content/admin_partition/confirm/confirm_hsm.htm<br>https://thalesdocs.com/gphsm/luna/7/docs/network/Content/Utilities/cmu/cmu_getpkc.htm|    |
 | Marvell HSM             |:heavy_check_mark:| ?      |https://www.marvell.com/products/security-solutions/nitrox-hs-adapters/software-key-attestation.html |GCP Cloud HSM, AWS CloudHSM and MS Managed HSM are using Marvell hardware in the background|
 | Securosys Primus HSM    |:heavy_check_mark:| ?      |https://www.securosys.com/hubfs/Securosys_PrimusHSM_KeyAttestation_SB-E01.pdf                        |       |
 | I4P Trident HSM         |:x:         |        |                                                                                                     |       |
