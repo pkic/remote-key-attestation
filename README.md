@@ -16,19 +16,19 @@ The table lists known hardware cryptographic devices and their support, or non-s
 
 | Vendor                  | Capability | Format | Documentation                                                                                       | Notes |
 | ----------------------- |:-----------|:-------|:----------------------------------------------------------------------------------------------------|:------|
-|*Cloud HSMs*|
+|**Cloud HSMs**|
 | Google CloudHSM         |:heavy_check_mark:| JSON   |https://cloud.google.com/kms/docs/attest-key                                                         |       |
 | AWS CloudHSM            |:x:         |        |                                                                                                     |       |
 | AWS KMS                 |:x:         |        |                                                                                                     |       |
 | Azure Key Vault         |:x:         |        |                                                                                                     |       |
 | Azure Managed HSM       |:x:         |        |                                                                                                     |Said by MS to be on the roadmap|
-|*HSMs*|
+|**HSMs**|
 | Utimaco CryptoServer    |:x:         |        |                                                                                                     |       |
 | Thales Luna             |:heavy_check_mark:| ?      |https://thalesdocs.com/gphsm/luna/7/docs/network/Content/admin_partition/confirm/confirm_hsm.htm<br>https://thalesdocs.com/gphsm/luna/7/docs/network/Content/Utilities/cmu/cmu_getpkc.htm|    |
 | Marvell HSM             |:heavy_check_mark:| ?      |https://www.marvell.com/products/security-solutions/nitrox-hs-adapters/software-key-attestation.html |GCP Cloud HSM, AWS CloudHSM and MS Managed HSM are using Marvell hardware in the background|
 | Securosys Primus HSM    |:heavy_check_mark:| ?      |https://www.securosys.com/hubfs/Securosys_PrimusHSM_KeyAttestation_SB-E01.pdf                        |       |
 | I4P Trident HSM         |:x:         |        |                                                                                                     |       |
-|*Tokens*|
+|**Tokens**|
 | Yubico                  |:heavy_check_mark:| X.509  |https://developers.yubico.com/yubico-piv-tool/Attestation.html                                       |       |
 | Trusted Platform Module |:heavy_check_mark:| PKCS#10|https://www.cs.unh.edu/~it666/reading_list/Hardware/tpm_fundamentals.pdf<br>https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/manage/component-updates/tpm-key-attestation|       |
 
