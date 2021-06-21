@@ -16,6 +16,8 @@ The table lists known hardware cryptographic devices and their support, or non-s
 
 | Vendor                  | Capability | Format | Documentation                                                                                       | Notes |
 | ----------------------- |:-----------|:-------|:----------------------------------------------------------------------------------------------------|:------|
+|Cloud HSMs|
+|----+----+----+----+----|
 | Google CloudHSM         |:heavy_check_mark:| JSON   |https://cloud.google.com/kms/docs/attest-key                                                         |       |
 | AWS CloudHSM            |:x:         |        |                                                                                                     |       |
 | AWS KMS                 |:x:         |        |                                                                                                     |       |
