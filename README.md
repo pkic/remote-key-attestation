@@ -18,16 +18,16 @@ The table lists known hardware cryptographic devices and their support, or non-s
 | ----------------------- |:-----------|:-------|:----------------------------------------------------------------------------------------------------|:------|
 | Google CloudHSM         | ✔️        | JSON   |https://cloud.google.com/kms/docs/attest-key                                                         |       |
 | AWS CloudHSM            | ❌         |        |                                                                                                     |       |
-| AWS KMS                 | No         |        |                                                                                                     |       |
-| Azure Key Vault         | No         |        |                                                                                                     |       |
-| Azure Managed HSM       | No         |        |                                                                                                     |Said by MS to be on the roadmap|
-| Utimaco CryptoServer    | No         |        |                                                                                                     |       |
-| Thales Luna             | Yes        | ?      |https://thalesdocs.com/gphsm/luna/7/docs/network/Content/admin_partition/confirm/confirm_hsm.htm<br>https://thalesdocs.com/gphsm/luna/7/docs/network/Content/Utilities/cmu/cmu_getpkc.htm|    |
-| Marvell HSM             | Yes        | ?      |https://www.marvell.com/products/security-solutions/nitrox-hs-adapters/software-key-attestation.html |GCP Cloud HSM, AWS CloudHSM and MS Managed HSM are using Marvell hardware in the background|
-| Securosys Primus HSM    | Yes        | ?      |https://www.securosys.com/hubfs/Securosys_PrimusHSM_KeyAttestation_SB-E01.pdf                        |       |
-| I4P Trident HSM         | No         |        |                                                                                                     |       |
-| Yubico                  | Yes        | X.509  |https://developers.yubico.com/yubico-piv-tool/Attestation.html                                       |       |
-| Trusted Platform Module | Yes        | PKCS#10|https://www.cs.unh.edu/~it666/reading_list/Hardware/tpm_fundamentals.pdf<br>https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/manage/component-updates/tpm-key-attestation|       |
+| AWS KMS                 | ❌         |        |                                                                                                     |       |
+| Azure Key Vault         | ❌         |        |                                                                                                     |       |
+| Azure Managed HSM       | ❌         |        |                                                                                                     |Said by MS to be on the roadmap|
+| Utimaco CryptoServer    | ❌         |        |                                                                                                     |       |
+| Thales Luna             | ✔️        | ?      |https://thalesdocs.com/gphsm/luna/7/docs/network/Content/admin_partition/confirm/confirm_hsm.htm<br>https://thalesdocs.com/gphsm/luna/7/docs/network/Content/Utilities/cmu/cmu_getpkc.htm|    |
+| Marvell HSM             | ✔️        | ?      |https://www.marvell.com/products/security-solutions/nitrox-hs-adapters/software-key-attestation.html |GCP Cloud HSM, AWS CloudHSM and MS Managed HSM are using Marvell hardware in the background|
+| Securosys Primus HSM    | ✔️        | ?      |https://www.securosys.com/hubfs/Securosys_PrimusHSM_KeyAttestation_SB-E01.pdf                        |       |
+| I4P Trident HSM         | ❌         |        |                                                                                                     |       |
+| Yubico                  | ✔️        | X.509  |https://developers.yubico.com/yubico-piv-tool/Attestation.html                                       |       |
+| Trusted Platform Module | ✔️        | PKCS#10|https://www.cs.unh.edu/~it666/reading_list/Hardware/tpm_fundamentals.pdf<br>https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/manage/component-updates/tpm-key-attestation|       |
 
 # Standards
 --------
