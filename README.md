@@ -14,7 +14,7 @@ There are other ways to achieve the same purpose, such as shipping hardware devi
 -----
 The table lists known hardware cryptographic devices and their support, or non-support, for remote key attestation.
 
-| Vendor                  | Capability | Format | Documentation                                                                                       | Notes |
+| Vendor/Model            | Capability | Format | Documentation                                                                                       | Notes |
 | ----------------------- |:-----------|:-------|:----------------------------------------------------------------------------------------------------|:------|
 |**Cloud HSMs**|
 | Google CloudHSM         |:heavy_check_mark:| JSON   |https://cloud.google.com/kms/docs/attest-key                                                         |       |
