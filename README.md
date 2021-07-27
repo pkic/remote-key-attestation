@@ -31,6 +31,8 @@ The table lists known hardware cryptographic devices and their support, or non-s
 |**Tokens**|
 | Yubico                  |:heavy_check_mark:| X.509  |https://developers.yubico.com/yubico-piv-tool/Attestation.html                                       |       |
 | Trusted Platform Module |:heavy_check_mark:| PKCS#10|https://www.cs.unh.edu/~it666/reading_list/Hardware/tpm_fundamentals.pdf<br>https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/manage/component-updates/tpm-key-attestation|       |
+|**Other Devices**|
+| Apple iOS                  |:heavy_check_mark:| ?  |https://developer.apple.com/documentation/devicecheck<br>https://developer.apple.com/documentation/devicecheck/validating_apps_that_connect_to_your_server                                       |Not for the purpose of key attestation as defined here, perhaps it can be used for additional purposes than intended?       |
 
 # Standards
 --------
