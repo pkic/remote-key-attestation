@@ -27,7 +27,7 @@ The table lists known hardware cryptographic devices and their support, or non-s
 | Utimaco CryptoServer    |:x:         |        |                                                                                                     |       |
 | Thales Luna             |:heavy_check_mark:|CMS/PKCS#7 |https://thalesdocs.com/gphsm/luna/7/docs/network/Content/admin_partition/confirm/confirm_hsm.htm<br>https://thalesdocs.com/gphsm/luna/7/docs/network/Content/Utilities/cmu/cmu_getpkc.htm|    |
 | Marvell HSM             |:heavy_check_mark:|Proprietary/Binary|https://www.marvell.com/products/security-solutions/nitrox-hs-adapters/software-key-attestation.html |GCP Cloud HSM, AWS CloudHSM and MS Managed HSM are using Marvell hardware in the background|
-| Securosys Primus HSM    |:heavy_check_mark:| XML      |https://www.securosys.com/hubfs/Securosys_PrimusHSM_KeyAttestation_SB-E01.pdf (Documentation in HSM User Guide)            |       |
+| Securosys Primus HSM    |:heavy_check_mark:| XML with external sig|https://www.securosys.com/hubfs/Securosys_PrimusHSM_KeyAttestation_SB-E01.pdf (Documentation in HSM User Guide)            |       |
 | I4P Trident HSM         |:heavy_check_mark:|CMS/PKCS#7 |https://www.i4p.com/documents/Trident_RSS_summary_sheet_200929.pdf | No detailed documentation about using key attestation available publicly.      |
 |**Tokens**|
 | Yubico                  |:heavy_check_mark:| X.509  |https://developers.yubico.com/yubico-piv-tool/Attestation.html                                       |       |
