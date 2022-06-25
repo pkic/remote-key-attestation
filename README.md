@@ -39,6 +39,13 @@ The table lists known hardware cryptographic devices and their support, or non-s
 # Standards
 --------
 There are a few standardizaton efforts avaialable. Known efforts include:
+
+* Recently (June 2022) draft submitted to IETF, [Key Attestation Extension for Certificate Management Protocols](https://datatracker.ietf.org/doc/html/draft-wallace-lamps-key-attestation-ext-00)
+
+* This draft makes use of [WebAuthn Defined Attestation Statement Formats](https://www.w3.org/TR/webauthn-2/#sctn-defined-attestation-formats)
+
+Other suggestions, which hasn't been seen live in any of the above implementations:
+
 * SKAE  extension (Trusted Computing Group): https://trustedcomputinggroup.org/wp-content/uploads/IWG_SKAE_Extension_1-00.pdf
 
 * Remote ATtestation ProcedureS (rats):
@@ -47,7 +54,4 @@ https://datatracker.ietf.org/wg/rats/about/
 * Entity Attestation Token (EAT):
 https://datatracker.ietf.org/doc/draft-ietf-rats-eat/
 
-* Use cases for Remote Attestation common encodings:
-https://datatracker.ietf.org/doc/html/draft-richardson-rats-usecases-08
-Describes in section 7 several of the encodings listed in the table above.
-
+There is also a draft with [Use cases for Remote Attestation common encodings](https://datatracker.ietf.org/doc/html/draft-richardson-rats-usecases-08). Section 7 describes several of the encodings listed in the table above.
