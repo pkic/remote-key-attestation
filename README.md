@@ -30,11 +30,11 @@ The table lists known hardware cryptographic devices and their support, or non-s
 | Securosys Primus HSM    |:heavy_check_mark:| XML with external sig|https://www.securosys.com/hubfs/Securosys_PrimusHSM_KeyAttestation_SB-E01.pdf (Documentation in HSM User Guide)            |       |
 | I4P Trident HSM         |:heavy_check_mark:|CMS/PKCS#7 |https://www.i4p.com/documents/Trident_RSS_summary_sheet_200929.pdf | No detailed documentation about using key attestation available publicly.      |
 |**Tokens**|
-| Yubico                  |:heavy_check_mark:| X.509  |https://developers.yubico.com/yubico-piv-tool/Attestation.html                                       |       |
+| Yubico                  |:heavy_check_mark:| X.509  |https://developers.yubico.com/yubico-piv-tool/Attestation.html<br>https://developers.yubico.com/PIV/Introduction/PIV_attestation.html                                       |       |
 | Trusted Platform Module |:heavy_check_mark:| PKCS#10|https://www.cs.unh.edu/~it666/reading_list/Hardware/tpm_fundamentals.pdf<br>https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/manage/component-updates/tpm-key-attestation<br>https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-wcce/f596c7df-a72c-4323-b27f-3c8646604ddb?redirectedfrom=MSDN|       |
 |**Other Devices**|
-| Apple iOS                  |:heavy_check_mark:| ?  |https://developer.apple.com/documentation/devicecheck<br>https://developer.apple.com/documentation/devicecheck/validating_apps_that_connect_to_your_server                                       |Not for the purpose of key attestation as defined here, perhaps it can be used for additional purposes than intended?       |
-| Android                  |:heavy_check_mark:| ASN.1  |https://developer.android.com/training/articles/security-key-attestation  | Custom ASN.1 format      |
+| Apple iOS                  |:heavy_check_mark:| ?  |https://developer.apple.com/documentation/devicecheck<br>https://developer.apple.com/documentation/devicecheck/dcappattestservice/3573911-attestkey<br>https://developer.apple.com/documentation/devicecheck/validating_apps_that_connect_to_your_server                                       |Not for the purpose of key attestation as defined here, perhaps it can be used for additional purposes than intended?       |
+| Android                  |:heavy_check_mark:| ASN.1  |https://developer.android.com/training/articles/security-key-attestation<br>https://source.android.com/security/keystore/attestation  | Custom ASN.1 format      |
 
 # Standards
 --------
