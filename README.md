@@ -40,7 +40,7 @@ The table lists known hardware cryptographic devices and their support, or non-s
 --------
 There are a few standardizaton efforts avaialable. Known efforts include:
 
-* Recently (June 2022) draft submitted to IETF, [Key Attestation Extension for Certificate Management Protocols](https://datatracker.ietf.org/doc/html/draft-wallace-lamps-key-attestation-ext-00)
+* Recently (June 2022) draft submitted to IETF, [Key Attestation Extension for Certificate Management Protocols](https://datatracker.ietf.org/doc/html/draft-wallace-lamps-key-attestation-ext-01)
 
 * This draft makes use of [WebAuthn Defined Attestation Statement Formats](https://www.w3.org/TR/webauthn-2/#sctn-defined-attestation-formats)
 
