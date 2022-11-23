@@ -29,6 +29,7 @@ The table lists known hardware cryptographic devices and their support, or non-s
 | Marvell HSM             |:heavy_check_mark:|Proprietary/Binary|https://www.marvell.com/products/security-solutions/nitrox-hs-adapters/software-key-attestation.html |GCP Cloud HSM, AWS CloudHSM and MS Managed HSM are using Marvell hardware in the background|
 | Securosys Primus HSM    |:heavy_check_mark:| XML with external sig|https://www.securosys.com/hubfs/Securosys_PrimusHSM_KeyAttestation_SB-E01.pdf (Documentation in HSM User Guide)            |       |
 | I4P Trident HSM         |:heavy_check_mark:|CMS/PKCS#7 |https://www.i4p.com/documents/Trident_RSS_summary_sheet_200929.pdf | No detailed documentation about using key attestation available publicly.      |
+| Fortanix         |:x::clock1:|       |  | Claimed roadmap item for H1 2023 |
 |**Tokens**|
 | Yubico                  |:heavy_check_mark:| X.509  |https://developers.yubico.com/yubico-piv-tool/Attestation.html<br>https://developers.yubico.com/PIV/Introduction/PIV_attestation.html                                       |       |
 | Trusted Platform Module |:heavy_check_mark:| PKCS#10|https://www.cs.unh.edu/~it666/reading_list/Hardware/tpm_fundamentals.pdf<br>https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/manage/component-updates/tpm-key-attestation<br>https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-wcce/f596c7df-a72c-4323-b27f-3c8646604ddb?redirectedfrom=MSDN|       |
