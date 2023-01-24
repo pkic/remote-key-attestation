@@ -55,4 +55,6 @@ https://datatracker.ietf.org/wg/rats/about/
 * Entity Attestation Token (EAT):
 https://datatracker.ietf.org/doc/draft-ietf-rats-eat/
 
+* Using Attestation in Transport Layer Security: https://datatracker.ietf.org/doc/draft-fossati-tls-attestation/
+
 There is also a draft with [Use cases for Remote Attestation common encodings](https://datatracker.ietf.org/doc/html/draft-richardson-rats-usecases-08). Section 7 describes several of the encodings listed in the table above.
