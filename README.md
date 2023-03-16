@@ -36,7 +36,7 @@ The table lists known hardware cryptographic devices and their support, or non-s
 | Century Longmai PKI Token|:x::clock1:| CMS/PKCS#7 | | Claimed roadmap item |
 | TrustSec SLCOS - Bio/PKI token|:x:|  | |  |
 |**Other Devices**|
-| Apple iOS                  |:heavy_check_mark:| ?  |https://developer.apple.com/documentation/devicecheck<br>https://developer.apple.com/documentation/devicecheck/dcappattestservice/3573911-attestkey<br>https://developer.apple.com/documentation/devicecheck/validating_apps_that_connect_to_your_server                                       |Not for the purpose of key attestation as defined here, perhaps it can be used for additional purposes than intended?       |
+| Apple iOS                  |:heavy_check_mark:| CBOR/WebAuthn  |https://developer.apple.com/documentation/devicecheck<br>https://developer.apple.com/documentation/devicecheck/dcappattestservice/3573911-attestkey<br>https://developer.apple.com/documentation/devicecheck/validating_apps_that_connect_to_your_server                                       |Not for the purpose of key attestation as defined here, perhaps it can be used for additional purposes than intended?       |
 | Android                  |:heavy_check_mark:| ASN.1  |https://developer.android.com/training/articles/security-key-attestation<br>https://source.android.com/security/keystore/attestation  | Custom ASN.1 format      |
 
 # Standards
