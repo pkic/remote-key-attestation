@@ -32,7 +32,7 @@ The table lists known hardware cryptographic devices and their support, or non-s
 | Fortanix         |:x::clock1:|       |  | Claimed roadmap item for H1 2023 |
 |**Tokens**|
 | Yubico                  |:heavy_check_mark:| X.509  |https://developers.yubico.com/YubiHSM2/Concepts/Attestation.html<br>https://developers.yubico.com/yubico-piv-tool/Attestation.html<br>https://developers.yubico.com/PIV/Introduction/PIV_attestation.html                                       |       |
-| Trusted Platform Module |:heavy_check_mark:| PKCS#10|https://www.cs.unh.edu/~it666/reading_list/Hardware/tpm_fundamentals.pdf<br>https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/manage/component-updates/tpm-key-attestation<br>https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-wcce/f596c7df-a72c-4323-b27f-3c8646604ddb?redirectedfrom=MSDN|       |
+| Trusted Platform Module |:heavy_check_mark:| TPMS_ATTEST/PKCS#10|https://www.cs.unh.edu/~it666/reading_list/Hardware/tpm_fundamentals.pdf<br>https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/manage/component-updates/tpm-key-attestation<br>https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-wcce/f596c7df-a72c-4323-b27f-3c8646604ddb?redirectedfrom=MSDN<br>https://trustedcomputinggroup.org/wp-content/uploads/TNC_TAP_Information_Model_v1.00_r0.29A_publicreview.pdf|       |
 | Century Longmai PKI Token|:x::clock1:| CMS/PKCS#7 | | Claimed roadmap item |
 | TrustSec SLCOS - Bio/PKI token|:x:|  | |  |
 |**Other Devices**|
