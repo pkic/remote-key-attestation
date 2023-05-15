@@ -47,6 +47,8 @@ There are a few standardizaton efforts avaialable. Known efforts include:
 
 * This draft makes use of [WebAuthn Defined Attestation Statement Formats](https://www.w3.org/TR/webauthn-2/#sctn-defined-attestation-formats)
 
+* [Attestation Attributes for use with Certificate Requests](https://datatracker.ietf.org/doc/draft-stjohns-csr-attest/)
+
 Other suggestions, which hasn't been seen live in any of the above implementations:
 
 * SKAE  extension (Trusted Computing Group): https://trustedcomputinggroup.org/wp-content/uploads/IWG_SKAE_Extension_1-00.pdf
