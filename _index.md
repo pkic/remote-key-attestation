@@ -56,6 +56,8 @@ There are a few standardization efforts available. Known efforts include:
 
 * [Attestation Attributes for use with Certificate Requests](https://datatracker.ietf.org/doc/draft-stjohns-csr-attest/)
 
+* [ACME Device Attestation Extension](https://datatracker.ietf.org/doc/draft-bweeks-acme-device-attest/)
+
 Other suggestions, which hasn't been seen live in any of the above implementations:
 
 * [SKAE extension (Trusted Computing Group)](https://trustedcomputinggroup.org/wp-content/uploads/IWG_SKAE_Extension_1-00.pdf)
