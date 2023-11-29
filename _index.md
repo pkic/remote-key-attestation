@@ -76,7 +76,7 @@ There is also a draft with [Use cases for Remote Attestation common encodings](h
 
 ## Vendor Details
 
-# Android
+### Android
 
 Android provides multiple resources.
 
