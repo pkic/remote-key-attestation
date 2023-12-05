@@ -43,7 +43,7 @@ The table lists known hardware cryptographic devices and their support, or non-s
 | Century Longmai PKI Token      | :x::clock1:        | CMS/PKCS#7            |                                                                                                                                                                                                                                                                                                                                                                                                                                          | Claimed roadmap item                                                                                                  |
 | TrustSec SLCOS - Bio/PKI token | :x:                |                       |                                                                                                                                                                                                                                                                                                                                                                                                                                          |                                                                                                                       |
 | **Other Devices**              |
-| Apple iOS                      | :heavy_check_mark: | X.509/ACME/CBOR/WebAuthn         | Managed Device Attestation (iOS 16 and later):<br/>https://support.apple.com/en-gb/guide/deployment/dep28afbde6a/web<br/>For Apps:<br/>https://developer.apple.com/documentation/devicecheck<br/>https://developer.apple.com/documentation/devicecheck/dcappattestservice/3573911-attestkey<br/>https://developer.apple.com/documentation/devicecheck/validating_apps_that_connect_to_your_server                                                                                                                                                                                 | Managed Device Attestation is used for key attestation. App attestation does not seem to be for the purpose of key attestation as defined here. |
+| Apple iOS                      | :heavy_check_mark: | X.509/ACME/CBOR/WebAuthn         | [Apple](#apple) |  |
 | Android                        | :heavy_check_mark: | ASN.1/CBOS/COSE                 | [Android](#android)  |  |
 
 ## Standards
@@ -89,3 +89,12 @@ A (not well documented) certificate management protocol called KeyMint, which is
 
 * [Keymint cddl files](https://cs.android.com/android/platform/superproject/+/main:hardware/interfaces/security/rkp/aidl/android/hardware/security/keymint/)
 * [Keymint DeviceInfoV3.cddl](https://cs.android.com/android/platform/superproject/+/main:hardware/interfaces/security/rkp/aidl/android/hardware/security/keymint/DeviceInfoV3.cddl)
+
+### Apple
+
+Apple provides multiple resources.
+
+[Managed Device Attestation](https://support.apple.com/en-gb/guide/deployment/dep28afbde6a/web), in iOS 16 and later, is used for key attestation. 
+
+[DeviceCheck](https://developer.apple.com/documentation/devicecheck) [app integrity attestation](https://developer.apple.com/documentation/devicecheck/establishing_your_app_s_integrity) is  not usedfor the purpose of key attestation as defined here.
+
