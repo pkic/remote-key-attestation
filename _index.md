@@ -9,6 +9,10 @@ tags:
 - resource
 ---
 
+## Contribute
+
+This list is a collaborative effort. To contribute please raise an issue or a PR on the [GitHub Repository](https://github.com/pkic/remote-key-attestation).
+
 ## Use cases
 
 Common use cases for key attestation are:
