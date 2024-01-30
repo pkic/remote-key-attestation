@@ -70,9 +70,7 @@ PKCS7:
 
 > openssl pkcs7 -in attestation.pkc -inform DER -print_certs -out certs.pem
 
-> openssl smime -verify -binary -inform PEM -in attestation.pkc -certfile certs.pem -nointern -noverify
-
-> openssl pkcs7 -in attestation.pkc -inform DER -out attestation.p7
-
+> openssl smime -verify -inform DER -in attestation.pkc -certfile certs.pem -nointern -noverify -nodetach
 ```
+TODO: verification fails in example, find the right commands
 
