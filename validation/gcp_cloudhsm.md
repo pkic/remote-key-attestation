@@ -20,3 +20,5 @@ As with generating attestations, Google documents multiple ways to verify attest
 Verification is done with the [verify_attestation_chains.py](https://github.com/GoogleCloudPlatform/python-docs-samples/tree/main/kms/attestations) script.
 Actually matching the public key received in the CSR with the attestation is a complex process with manual steps. It is described in the Google documentation [Parsing the attestation's values](https://cloud.google.com/kms/docs/attest-key#parse_attestation), and Marvell's documentation for [Parsing an Attestation](https://www.marvell.com/products/security-solutions/nitrox-hs-adapters/software-key-attestation.html#ParseAttestation) and [Verifying a Public Key](https://www.marvell.com/products/security-solutions/nitrox-hs-adapters/software-key-attestation.html#VerifyPubKey),
 
+## Examples
+
