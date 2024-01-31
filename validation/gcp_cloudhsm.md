@@ -2,6 +2,15 @@
 
 Google’s [Cloud HSM](https://cloud.google.com/kms/docs/hsm) service uses devices manufactured by Marvell (formerly Cavium), which can produce signed attestation statements for cryptographic keys.
 
+# Table of contents
+1. [Trust](#trust)
+2. [Generating Attestations](#generating-attestations)
+3. [Verifying Attestations](#verifying_attestations)
+    1. [Verifying Integrity](#verifying-integrity)
+    2. [Matching the Key in the CSR](#matching-the-key-in-the-csr)
+    3. [Verifying Key Attributes](#verifying-key-attributes)
+4. [Examples](#examples)
+
 ## Trust
 
 Trust for the GCP CloudHSM attestations are anchored in a root certificate, which is the HSM manufacturers Root Certificate, in this case Marvell.
@@ -62,4 +71,5 @@ TODO: provide steps
 TODO: provide steps
 
 ## Examples
+TODO: Full output examples
 
