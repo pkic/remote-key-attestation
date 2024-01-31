@@ -51,7 +51,7 @@ Generating the attestation is done by the entity generating the key and the CSR,
 
 ## Verifying Attestations
 
-Validating attestations for code signing purposes have three steps:
+Validating attestations for code signing (and other) purposes consist of three steps:
 1. Verifying integrity of the attestation bundle.
 2. Matching the public key in the CSR with the attestated key pair in the attestation bundle.
 3. Verifying key attributes in the attestation, that the key pair was generated in the hardware security module and that the private key is not exportable.
