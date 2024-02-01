@@ -57,15 +57,15 @@ OUV7XQDzAv3zXJKuNeT+r7XxkcTd0Pz8oD2qbZbIZbFPkE+ikR3KBmSv/f9G
 ## Generating Attestations
 
 To generate an attestation (PKC) to send to a CA you first generate the key pair and the CSR. To generate the PKC you need to know the PKCS#11 handle of the public key. There are many ways to find this out, one way using Luna tools is using the cmu tool, available both for [Luna](https://thalesdocs.com/gphsm/luna/7/docs/network/Content/Utilities/cmu/cmu_getpkc.htm?Highlight=getpkc) and [DPoD](https://thalesdocs.com/dpod/services/luna_cloud_hsm/extern/client_guides/Content/Utilities/cmu/cmu_getpkc.htm). 
-```
+```sh
 cmu list -class private -label=mykeyalias
 ```
 Where mykeyalias is the PKCS#11 label of the private key. This outputs a *handle* (number) on Luna and an *ouid* on DPoD, this is what we input to the *getpkc* command. Download the PKC with:
-```
+```sh
 cmu getpkc -outputfile=attestation.pkc –handle=5
 ```
 or
-```
+```sh
 cmu getpkc -outputfile=attestation.pkc -ouid=8dac020013000002badb0800
 ```
 The PKC attestation file is now stored as attestation.pkc, a DER encoded PKCS#7 (CMS) file.
@@ -80,7 +80,7 @@ Validating attestations for code signing (and other) purposes consist of three s
 Verifying attestations can be done with cmu, for [Luna](https://thalesdocs.com/gphsm/luna/7/docs/network/Content/Utilities/cmu/cmu_verifypkc.htm) or [DPoD](https://thalesdocs.com/dpod/services/luna_cloud_hsm/extern/client_guides/Content/Utilities/cmu/cmu_verifypkc.htm).
 
 For example
-```
+```sh
 cmu verifypkc -inputFile=attestation.pkc
 ```
 
@@ -99,7 +99,7 @@ TODO: provide steps
 TODO: provide steps
 
 ## Examples
-```
+```sh
 > ./cmu list -class private -label=priv-rsa_1
 Certificate Management Utility (64-bit) v10.5.0-470. Copyright (c) 2022 SafeNet. All rights reserved.
 
