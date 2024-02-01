@@ -1,12 +1,7 @@
 ---
-date: 2023-03-21T7:00:00Z
+date: 2024-02-01T7:00:00Z
 title: Remote Key Attestation
-
-heroTitle: Remote Key Attestation
-heroDescription: Key attestation, in this context, is the technical ability to prove to a remote party that a private key was generated inside, and is managed inside, and not exportable from, a hardware cryptographic module
-
-tags:
-- resource
+sideMenu: true
 ---
 
 ## Contribute
