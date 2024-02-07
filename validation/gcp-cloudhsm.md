@@ -1,3 +1,9 @@
+---
+date: 2024-02-01T7:00:00Z
+title: GCP CloudHSM
+sideMenu: true
+---
+
 # GCP CloudHSM
 
 Google’s [Cloud HSM](https://cloud.google.com/kms/docs/hsm) service uses devices manufactured by Marvell (formerly Cavium), which can produce signed attestation statements for cryptographic keys.
@@ -51,25 +57,20 @@ Generating the attestation is done by the entity generating the key and the CSR,
 
 ## Verifying Attestations
 
-Validating attestations for code signing (and other) purposes consist of three steps:
-1. Verifying integrity of the attestation bundle.
-2. Matching the public key in the CSR with the attestated key pair in the attestation bundle.
-3. Verifying key attributes in the attestation, that the key pair was generated in the hardware security module and that the private key is not exportable.
-
 As with generating attestations, Google documents multiple ways to verify attestations. Again the process for [Verifying the attestation manually](https://cloud.google.com/kms/docs/attest-key#verify_chains) is suitable for the entity that recieves the attestation zip file generated above.
 
 Verification is done with the [verify_attestation_chains.py](https://github.com/GoogleCloudPlatform/python-docs-samples/tree/main/kms/attestations) script.
 Actually matching the public key received in the CSR with the attestation is a complex process with manual steps. It is described in the Google documentation [Parsing the attestation's values](https://cloud.google.com/kms/docs/attest-key#parse_attestation), and Marvell's documentation for [Parsing an Attestation](https://www.marvell.com/products/security-solutions/nitrox-hs-adapters/software-key-attestation.html#ParseAttestation) and [Verifying a Public Key](https://www.marvell.com/products/security-solutions/nitrox-hs-adapters/software-key-attestation.html#VerifyPubKey),
 
 ### Verifying Integrity
-TODO: rovide steps
+TODO: provide code
 
 ### Matching the Key in the CSR
-TODO: provide steps
+TODO: provide code
 
 ### Verifying Key Attributes
-TODO: provide steps
+TODO: provide code
 
 ## Examples
-TODO: Full output examples
+TODO: Full input/output examples
 

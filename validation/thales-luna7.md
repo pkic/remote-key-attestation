@@ -1,3 +1,9 @@
+---
+date: 2024-02-01T7:00:00Z
+title: Thales Luna/DPoD
+sideMenu: true
+---
+
 # Thales Luna 7
 
 The Thales Luna HSM and the DPoD Luna Cloud HSM can create [public key confirmation (PKC) packages](https://data-protection-updates.gemalto.com/2020/04/15/public-key-confirmation-meeting-ca-browser-forum-standards-with-luna-and-luna-cloud-hsms/). The PKC can be used to verify that the keypair was generated in the HSM, and can not be exported.
@@ -72,11 +78,6 @@ The PKC attestation file is now stored as attestation.pkc, a DER encoded PKCS#7 
 
 ## Verifying Attestations
 
-Validating attestations for code signing (and other) purposes consist of three steps:
-1. Verifying integrity of the attestation bundle.
-2. Matching the public key in the CSR with the attestated key pair in the attestation bundle.
-3. Verifying key attributes in the attestation, that the key pair was generated in the hardware security module and that the private key is not exportable.
-
 Verifying attestations can be done with cmu, for [Luna](https://thalesdocs.com/gphsm/luna/7/docs/network/Content/Utilities/cmu/cmu_verifypkc.htm) or [DPoD](https://thalesdocs.com/dpod/services/luna_cloud_hsm/extern/client_guides/Content/Utilities/cmu/cmu_verifypkc.htm).
 
 For example
@@ -90,13 +91,13 @@ openssl pkcs7 -in attestation.pkc -inform DER -print
 ```
 
 ### Verifying Integrity
-TODO: rovide steps
+TODO: provide code
 
 ### Matching the Key in the CSR
-TODO: provide steps
+TODO: provide code
 
 ### Verifying Key Attributes
-TODO: provide steps
+TODO: provide code
 
 ## Examples
 ```
@@ -130,5 +131,5 @@ PKCS7:
 
 > openssl smime -verify -inform DER -in attestation.pkc -certfile certs.pem -nointern -noverify -nodetach
 ```
-TODO: verification fails in example, find the right commands
+TODO: verification fails in this example, find the right commands
 
