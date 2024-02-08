@@ -63,14 +63,22 @@ Verification is done with the [verify_attestation_chains.py](https://github.com/
 Actually matching the public key received in the CSR with the attestation is a complex process with manual steps. It is described in the Google documentation [Parsing the attestation's values](https://cloud.google.com/kms/docs/attest-key#parse_attestation), and Marvell's documentation for [Parsing an Attestation](https://www.marvell.com/products/security-solutions/nitrox-hs-adapters/software-key-attestation.html#ParseAttestation) and [Verifying a Public Key](https://www.marvell.com/products/security-solutions/nitrox-hs-adapters/software-key-attestation.html#VerifyPubKey),
 
 ### Verifying Integrity
-TODO: provide code
+> **TODO**
+> We are looking for instructions, please feel free to make a [contribution](../../contribute/)
+{.callout-info}
 
 ### Matching the Key in the CSR
-TODO: provide code
+> **TODO**
+> We are looking for instructions, please feel free to make a [contribution](../../contribute/)
+{.callout-info}
 
 ### Verifying Key Attributes
-TODO: provide code
+> **TODO**
+> We are looking for instructions, please feel free to make a [contribution](../../contribute/)
+{.callout-info}
 
 ## Examples
-TODO: Full input/output examples
+> **TODO**
+> We are looking for examples, please feel free to make a [contribution](../../contribute/)
+{.callout-info}
 

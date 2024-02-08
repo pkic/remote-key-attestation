@@ -91,13 +91,19 @@ openssl pkcs7 -in attestation.pkc -inform DER -print
 ```
 
 ### Verifying Integrity
-TODO: provide code
+> **TODO**
+> We are looking for instructions, please feel free to make a [contribution](../../contribute/)
+{.callout-info}
 
 ### Matching the Key in the CSR
-TODO: provide code
+> **TODO**
+> We are looking for instructions, please feel free to make a [contribution](../../contribute/)
+{.callout-info}
 
 ### Verifying Key Attributes
-TODO: provide code
+> **TODO**
+> We are looking for instructions, please feel free to make a [contribution](../../contribute/)
+{.callout-info}
 
 ## Examples
 ```
@@ -131,5 +137,7 @@ PKCS7:
 
 > openssl smime -verify -inform DER -in attestation.pkc -certfile certs.pem -nointern -noverify -nodetach
 ```
-TODO: verification fails in this example, find the right commands
+> **TODO**
+> Verification fails, we are looking for instructions, please feel free to make a [contribution](../../contribute/)
+{.callout-info}
 
