@@ -2,6 +2,12 @@
 date: 2024-02-01T7:00:00Z
 title: Remote Key Attestation
 sideMenu: true
+
+heroTitle: Remote Key Attestation
+heroDescription: A list of cryptographic devices that includes support for remote key attestations
+
+tags:
+- resource
 ---
 
 ## Use cases
