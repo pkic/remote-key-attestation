@@ -1,6 +1,7 @@
 ---
 date: 2024-02-01T7:00:00Z
 title: Remote Key Attestation
+summary: Remote key attestation is a capability for an entity to show to a remote party certain attributes of cryptographic keys. For example that they are generated in a hardware cryptographic module and not exportable. The PKI Consortium is working to promote the adoption of remote key attestations and is managing a list of cryptographic modules describing their attestation capabilities.
 sideMenu: true
 
 heroTitle: Remote Key Attestation
