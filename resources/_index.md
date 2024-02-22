@@ -8,11 +8,11 @@ sideMenu: true
 
 There are a few standardization efforts available. Some efforts include, but is not limited to:
 
-* Recently (June 2022) draft submitted to IETF, [Key Attestation Extension for Certificate Management Protocols](https://datatracker.ietf.org/doc/html/draft-wallace-lamps-key-attestation-ext-01)
+* [Use of Remote Attestation with Certificate Signing Requests](https://datatracker.ietf.org/doc/draft-ietf-lamps-csr-attestation/)
+  
+* [X.509-based Attestation Evidence](https://datatracker.ietf.org/doc/draft-ounsworth-rats-x509-evidence/)
 
-* This draft makes use of [WebAuthn Defined Attestation Statement Formats](https://www.w3.org/TR/webauthn-2/#sctn-defined-attestation-formats)
-
-* [Attestation Attributes for use with Certificate Requests](https://datatracker.ietf.org/doc/draft-stjohns-csr-attest/)
+* [WebAuthn Defined Attestation Statement Formats](https://www.w3.org/TR/webauthn-2/#sctn-defined-attestation-formats)
 
 * [ACME Device Attestation Extension](https://datatracker.ietf.org/doc/draft-bweeks-acme-device-attest/)
 
