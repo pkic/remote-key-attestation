@@ -79,8 +79,9 @@ The PKC attestation file is now stored as attestation.pkc, a DER encoded PKCS#7 
 ## Verifying Attestations
 
 Verifying attestations can be done with cmu, for [Luna](https://thalesdocs.com/gphsm/luna/7/docs/network/Content/Utilities/cmu/cmu_verifypkc.htm) or [DPoD](https://thalesdocs.com/dpod/services/luna_cloud_hsm/extern/client_guides/Content/Utilities/cmu/cmu_verifypkc.htm).
+Thales have a [Luna PKI Validator](https://github.com/ThalesGroup/luna-pkc-validator) tool on GitHub.
 
-For example
+Example using cmu:
 ```
 cmu verifypkc -inputFile=attestation.pkc
 ```
