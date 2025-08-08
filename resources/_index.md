@@ -10,7 +10,7 @@ There are a few standardization efforts available. Some efforts include, but is 
 
 * [Use of Remote Attestation with Certificate Signing Requests](https://datatracker.ietf.org/doc/draft-ietf-lamps-csr-attestation/)
   
-* [X.509-based Attestation Evidence](https://datatracker.ietf.org/doc/draft-ounsworth-rats-x509-evidence/)
+* [X.509-based Attestation Evidence](https://datatracker.ietf.org/doc/draft-ietf-rats-pkix-key-attestation/)
 
 * [WebAuthn Defined Attestation Statement Formats](https://www.w3.org/TR/webauthn-2/#sctn-defined-attestation-formats)
 
