@@ -14,7 +14,7 @@ There are a few standardization efforts available. Some efforts include, but is 
 
 * [WebAuthn Defined Attestation Statement Formats](https://www.w3.org/TR/webauthn-2/#sctn-defined-attestation-formats)
 
-* [ACME Device Attestation Extension]((https://datatracker.ietf.org/doc/draft-acme-device-attest/04/)
+* [ACME Device Attestation Extension](https://datatracker.ietf.org/doc/draft-acme-device-attest/04/)
 
 Other suggestions, which hasn't been seen live in any of the above implementations:
 
