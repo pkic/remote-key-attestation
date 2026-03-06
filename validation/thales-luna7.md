@@ -92,9 +92,8 @@ openssl pkcs7 -in attestation.pkc -inform DER -print
 ```
 
 ### Verifying Integrity
-> **TODO**
-> We are looking for instructions, please feel free to make a [contribution](../../contribute/)
-{.callout-info}
+
+The above luna-pkc-validator have instructions how to use it to verify.
 
 ### Matching the Key in the CSR
 > **TODO**
